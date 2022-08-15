@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar_layout_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:liftOnScroll="true">
+
+            <include
+                android:id="@+id/main_toolbar"
+                layout="@layout/toolbar_main" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            app:layout_constraintTop_toBottomOf="@id/appbar_layout_main" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/create_checklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="@dimen/global_margin"
+        android:backgroundTint="@color/listagram_red"
+        android:padding="2dp"
+        android:scaleX=".85"
+        android:scaleY=".85"
+        android:src="@drawable/ic_create_checklist"
+        android:visibility="gone"
+        app:borderWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@null" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/create_chat_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="@dimen/global_margin"
+        android:backgroundTint="@color/listagram_red"
+        android:padding="2dp"
+        android:scaleX=".85"
+        android:scaleY=".85"
+        android:src="@drawable/ic_create_chat_list"
+        android:visibility="gone"
+        app:borderWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@null" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/create_units_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="@dimen/global_margin"
+        android:backgroundTint="@color/listagram_red"
+        android:padding="2dp"
+        android:scaleX=".85"
+        android:scaleY=".85"
+        android:src="@drawable/ic_create_units_list"
+        android:visibility="gone"
+        app:borderWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@null" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="@dimen/global_margin"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_add"
+        app:borderWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@null" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

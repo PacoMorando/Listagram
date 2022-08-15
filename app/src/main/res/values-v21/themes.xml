@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.ConectarActivitys" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/listagram_red</item>
+        <item name="colorPrimaryVariant">@android:color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/listagram_red</item>
+        <item name="colorSecondaryVariant">@color/listagram_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="actionModeBackground">@android:color/white
+        </item> <!-- Este es el color de la barra del contexto-->
+        <item name="windowActionModeOverlay">true
+        </item> <!-- Esto pone la barra del contexto sobre la tool bar personalizada-->
+        <item name="android:colorEdgeEffect">@color/grey_text</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

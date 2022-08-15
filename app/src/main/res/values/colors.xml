@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="black_text">#333333</color>
+    <color name="selected_text">#E60063</color>
+    <color name="grey_text">#757575</color>
+    <color name="grey_divider">#d1d1d1</color>
+    <color name="grey_icons">#757575</color>
+
+
+
+    <!-- Listagram Palette. -->
+    <color name="listagram_red">#E60063</color>
+    <color name="listagram_dark_red">#700000</color>
+    <color name="listagram_green">#008575</color>
+    <color name="listagram_dark_green">#003D04</color>
+    <color name="listagram_blue">#1976d2</color>
+    <color name="listagram_purple">#7b1fa2</color>
+
+
+</resources>

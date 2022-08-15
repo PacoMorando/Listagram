@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/unit_bar_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:icon="@drawable/ic_sort"
+        android:title="Ordenar"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:title="Ordenar por :"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/sort_value_asc"
+                android:icon="@drawable/ic_sort_value_desc"
+                android:title="Valor mas alto"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/sort_value_desc"
+                android:icon="@drawable/ic_sort_value_asc"
+                android:title="Valor mas bajo"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/units_color_asc"
+                android:icon="@drawable/ic_selected_unit"
+                android:title="Selecionados"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/units_color_desc"
+                android:icon="@drawable/ic_no_selected_unit"
+                android:title="Sin selecionar"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/units_date_desc"
+                android:icon="@drawable/ic_sort_date_asc"
+                android:title="Más reciente"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/units_date_asc"
+                android:icon="@drawable/ic_sort_date_desc"
+                android:title="Más antiguo"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+
+</menu>

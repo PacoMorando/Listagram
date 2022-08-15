@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/check_bar_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:icon="@drawable/ic_sort"
+        android:title="Ordenar"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/sort_unchecked"
+                android:icon="@drawable/ic_uncheck"
+                android:title="Por pendientes"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/sort_checked"
+                android:icon="@drawable/ic_check"
+                android:title="Por realizados"
+                app:showAsAction="always" />
+
+        </menu>
+    </item>
+
+</menu>

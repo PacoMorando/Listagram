@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/chat_note_checked"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:background="@color/listagram_purple" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/outline_chat"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/chat_note_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="@dimen/global_margin"
+                    android:layout_marginTop="12dp"
+                    android:background="@android:color/transparent"
+                    android:text="Nota de chat Nota"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_body" />
+
+                <TextView
+                    android:id="@+id/chat_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginHorizontal="@dimen/global_margin"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@android:color/transparent"
+                    android:text="01/01/2021"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_caption1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

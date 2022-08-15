@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ConectarActivitys" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/listagram_red</item>
+        <item name="colorPrimaryVariant">@android:color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/listagram_red</item>
+        <item name="colorSecondaryVariant">@color/listagram_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="actionModeBackground">@android:color/white</item> <!-- Este es el color de la barra del contexto-->
+        <item name="windowActionModeOverlay">true</item> <!-- Esto pone la barra del contexto sobre la tool bar personalizada-->
+
+        <!-- Estos dos resuelven el error que da cuando hay una action bar y se quiere utilizar una toolbar con setsupporActionbar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Estos supuestamente desabilita el modo nocturno-->
+        <item name="android:forceDarkAllowed">false</item>
+
+    </style>
+
+    
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@color/listagram_purple</item>
+        <!-- actionMenuTextColor is the color of the text of action (menu) items  -->
+        <item name="actionMenuTextColor">@color/listagram_purple</item>
+        <!-- Tints the input fields like checkboxes and text fields -->
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Applies to views in their normal state. -->
+        <item name="colorControlNormal">@color/grey_icons</item>
+        <!-- Applies to views in their activated state (i.e checked or switches) -->
+        <item name="colorControlActivated">@color/listagram_purple</item>
+        <!-- Applied to framework control highlights (i.e ripples or list selectors) -->
+        <item name="colorControlHighlight">@color/listagram_purple</item>
+    </style>
+
+    <style name="PopUpTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@color/black_text</item>
+        <!-- Applies to views in their normal state. -->
+        <item name="colorControlNormal">@color/listagram_dark_red</item>
+    </style>
+
+
+
+
+</resources>

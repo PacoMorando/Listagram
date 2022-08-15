@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChatListActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <include
+            android:id="@+id/chat_list_toolbar"
+            layout="@layout/toolbar_light" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginVertical="5dp"
+            android:id="@+id/chat_list_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_chat_red"
+            android:scrollbars="vertical"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chat_list_chat_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="3dp"
+        android:paddingTop="2dp">
+
+        <EditText
+            android:id="@+id/add_chat_note_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:background="@drawable/outline_chat_red"
+            android:hint="Agrega una nota"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxHeight="110dp"
+            android:layout_marginEnd="10dp"
+            android:minHeight="45dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="4dp"
+            android:scrollbars="vertical" />
+
+        <ImageView
+
+            android:id="@+id/add_chat_note_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/background_red"
+            android:padding="2dp"
+            android:src="@drawable/ic_send_icon" />
+    </LinearLayout>
+
+</LinearLayout>

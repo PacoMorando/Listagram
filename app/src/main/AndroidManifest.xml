@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sas.conectaractivitys">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConectarActivitys">
+        <activity
+            android:name=".CheckListActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".ChatListActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".OtraActivity" />
+        <activity
+            android:name=".UnitsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".AddNoteActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

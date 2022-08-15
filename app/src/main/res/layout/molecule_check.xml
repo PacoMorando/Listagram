@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/global_margin"
+    android:orientation="horizontal">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:id="@+id/note_checked"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:layout_marginVertical="2dp"
+            android:background="@drawable/outline_selected_chek_units_list" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/check_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false" />
+
+            <TextView
+                android:id="@+id/text_check_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="50dp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. I"
+                android:textSize="@dimen/text_body" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:color="@color/listagram_red"
+                android:width="2dp"/>
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#fff" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+</layer-list>

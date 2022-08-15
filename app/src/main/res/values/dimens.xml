@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="global_margin">16dp</dimen>
+    <dimen name="molecule_title_marginEnd">30dp</dimen>
+    <dimen name="text_head3">17sp</dimen>
+    <dimen name="text_caption1">12sp</dimen>
+    <dimen name="molecule_preview_marginEnd">8dp</dimen>
+    <dimen name="text_body">15sp</dimen>
+    <dimen name="text_unit_list">18sp</dimen>
+    <dimen name="text_scaleX">.8</dimen>
+    <item name="letter_spacing" type="dimen" format="float">-0.08</item>
+
+    <dimen name="displacement">70dp</dimen>
+    <dimen name="hideDisplacement">75dp</dimen>
+</resources>

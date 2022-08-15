@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/global_margin">
+
+    <EditText
+        android:id="@+id/new_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollbars="vertical"
+        android:hint="Introduce un título"
+        android:maxHeight="220dp"
+        android:focusable="auto"/>
+
+</RelativeLayout>

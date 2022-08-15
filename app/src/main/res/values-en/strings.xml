@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Listagram</string>
+    <string name="delete_icon">Delete</string>
+    <string name="edit_icon">Edit</string>
+    <string name="ok_icon">Accept</string>
+    <string name="close_icon">Close</string>
+</resources>

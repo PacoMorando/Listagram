@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Listagram</string>
+    <string name="delete_icon">Eliminar</string>
+    <string name="edit_icon">Editar</string>
+    <string name="ok_icon">Aceptar</string>
+    <string name="close_icon">Cerrar</string>
+</resources>
