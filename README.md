@@ -1,5 +1,5 @@
 # Listagram
-![Logo Image](https://raw.githubusercontent.com/PacoMorando/multiplatform-master-mind/master/docs/listagram/ic_launcher.jpg)
+![Logo Image](docs/ic_launcher.jpg)
 
 ### Index
 - **[Description](#description)**
@@ -22,16 +22,16 @@ The keys for the UX/UI design were:
 - An easily memorable name.
 
 ### Color palette
-![Logo Image](https://raw.githubusercontent.com/PacoMorando/multiplatform-master-mind/master/docs/listagram/color_palette.jpg)
+![Logo Image](docs/color_palette.jpg)
 
 ## User Interface
 |  |  |
 |---|---|
-| ![app screenshot](https://raw.githubusercontent.com/PacoMorando/multiplatform-master-mind/master/docs/listagram/listagram_ss1.webp) | ![app screenshot](https://raw.githubusercontent.com/PacoMorando/multiplatform-master-mind/master/docs/listagram/listagram_ss2.webp)|
+| ![app screenshot](docs/listagram_ss1.webp) | ![app screenshot](docs/listagram_ss2.webp)|
 
 |  |  |
 |---|---|
-| ![app screenshot](https://raw.githubusercontent.com/PacoMorando/multiplatform-master-mind/master/docs/listagram/listagram_ss3.webp) | ![app screenshot](https://raw.githubusercontent.com/PacoMorando/multiplatform-master-mind/master/docs/listagram/listagram_ss4.webp)|
+| ![app screenshot](docs/listagram_ss3.webp) | ![app screenshot](docs/listagram_ss4.webp)|
 
 ## Application development
 
